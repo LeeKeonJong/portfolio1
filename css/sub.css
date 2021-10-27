@@ -2,38 +2,36 @@
 
  
  #realinfo{width: 1500px; height: 600px;}
- .info #item, #text{width: 640px; height: 600px;
-   float:left; margin: 0 30px 0 60px; ;}
-   #item{padding: 0 0 0 40px;}
- #item > #dayb{width: 640px; width: 400px; margin: 20px 0 0 50px;}
-  #dayb > #bigimg{width: 640px; height: 400px;  cursor: zoom-in;}
-  #product{width: 700px; height: 170px;}
-  #product ul{margin: 0 0 0 30px;}
-  #product ul li{list-style: none; text-decoration: none; width: 142px; height: 150px;
+ .info #item, #text{
+   float:left; margin: 0 30px 0 100px; ;}
+  #dayb > #bigimg{width: 560px; height: 500px;  cursor: zoom-in; margin: 20px 0 0 130px;}
+  #product{width: 700px; height: 180px;}
+  #product ul{ margin: 10px 0 0 130px;}
+  #product ul li{list-style: none; text-decoration: none; width: 130px; height: 110px;
       }
-  #product li{float: left;  margin: 10px 0px 0 20px;
+  #product li{float: left; margin: 0 12px 0 0; 
               }
-  #product ul li >img{width: 150px; height: 150px; }
+  #product ul li >img{width: 132px; height: 150px; }
   
   #product li:hover{cursor: pointer;}
-  #title{font-size: 40px; font-weight: bold; margin: 0 0 0 20px;}
-  #text1{margin: 15px 0 0 25px; font-size: 20px; color:gray;}
-  #star{margin: 15px 0 0 15px;}
-  #re{margin: -25px 0 0 100px; font-weight: bold;}
-  #price{margin: 40px 0 0 25px;}
+  #title{font-size: 40px; font-weight: bold; margin: 0 0 0 -100px;}
+  #text1{margin: 15px 0 0 -95px; font-size: 20px; color:gray;}
+  #star{margin: 15px 0 0 -105px;}
+  #re{margin: -25px 0 0 -20px; font-weight: bold;}
+  #price{margin: 40px 0 0 -95px;}
   #price2{font-size: 30px; font-weight: bold; margin: 0 20px 0 0;}
   #size{width: 100px; height: 40px; text-align: center; font-weight: bold;
-        font-size: 16px; border-radius: 5px ; margin: 0 10px 0 0;}
+        font-size: 16px; border-radius: 5px ; margin: 0 10px 0 -150px;}
   #size option{text-align: center;}
   #color{width: 100px; height: 40px;  font-weight: bold;
           font-size: 14px; border-radius: 5px ; margin: 0 10px 0 0;}
- #option{margin: 50px 0 0 25px;}       
+ #option{margin: 50px 0 0 55px;}       
  #cart{width: 130px; height: 40px; border-radius: 20px; background-color: black; 
        color: white; cursor: pointer; border: none;} 
  #cart:hover{opacity: 0.7;}
  #picup{width: 350px; height: 50px; background-color: white; cursor: pointer;
-        border-radius: 5px; margin: 0 0 0 25px; font-weight: bold;}
- #now{font-size: 15px; margin: 15px 0 0 25px;}      
+        border-radius: 5px; margin: 0 0 0 -95px; font-weight: bold;}
+ #now{font-size: 15px; margin: 15px 0 0 -95px;}      
  #now > a{font-size: 13px; text-decoration: underline; margin: 0 0 0 10px;}
  hr{width: 1300px;}
  #twosection{width: 1300px; height: 450px; text-align: center;
@@ -48,5 +46,7 @@
  #inproduce >p{font-style: italic; opacity: 0.8; margin: 10px 0 0 0;}   
  .wa:hover{opacity: 0.7;}
  #bigimg:active{transform: scale(1.5); transition:0.2s  ease-in-out;}
- #threesection >img{ height: 450px; display: inline-block; position: absolute;            }
- #tsection{display: inline-block; position: absolute; }
+ #threesection{width: 1300px; height: 450px; position: relative; background-color: aquamarine;}
+ #threesection img{ height: 1300px; height: 450px; display: inline-block; position: absolute;       }
+ #tsection{display: inline-block; position: absolute; right: 250px; top: 80px;
+           font-size: 35px; font-weight: bold;}
