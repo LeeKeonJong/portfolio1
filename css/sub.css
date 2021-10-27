@@ -23,6 +23,7 @@
   #price2{font-size: 30px; font-weight: bold; margin: 0 20px 0 0;}
   #size{width: 100px; height: 40px; text-align: center; font-weight: bold;
         font-size: 16px; border-radius: 5px ; margin: 0 10px 0 0;}
+  #size option{text-align: center;}
   #color{width: 100px; height: 40px;  font-weight: bold;
           font-size: 14px; border-radius: 5px ; margin: 0 10px 0 0;}
  #option{margin: 50px 0 0 25px;}       
