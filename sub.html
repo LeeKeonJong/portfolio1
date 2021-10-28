@@ -117,11 +117,36 @@
     </div>
 
     <div id="threesection">
-       <div><img src="img/6-1.jpg" alt="이미지">
-        <p id="tsection">나이키 데이브레이크</p>
-      </div>
+       <div><img src="img/6-1.jpg" alt="이미지"></div>
+        <p id="tsection">NIKE DayBreak</p>
+        <p id="origin">오리지널에 충실한 디자인.<br>1979년에 출시되었던 나이키 데이브레이크가 화려했던 과거를 재현합니다.
+           예전과 같은 고무 와플 밑창과 나일론 갑피로 진정한 빈티지 스타일을 즐겨보세요. </p>
+       <a href="https://www.youtube.com/watch?v=-SBsT032jVI">
+        <button type="button">WATCH THE VIDEO</button></a>   
     </div>
     
+
+     <div id="slide">
+       <p>NIKE BEST SHOSE</p>
+       <span id="prev">&lt;</span>
+       <span id="next">&gt;</span>
+       <ul id="slideul">
+         <li><img src="img/16.JPG" alt="이미지"></li>
+         <li><img src="img/17.JPG" alt="이미지"></li>
+         <li><img src="img/18.JPG" alt="이미지"></li>
+         <li><img src="img/19.JPG" alt="이미지"></li>
+       </ul>      
+     </div>
+      
+
+     <script>
+       $('#prev').click(function(){
+       $('#slideul li:last').prependTo('#slideul')
+       $('#slideul').css('margin-left',-0)
+       $('#slideul').stop().alimate({marginLeft:0},800)  
+       });
+     </script>
+
     <footer id="box">
       <div id="real">
         <div id="store">
