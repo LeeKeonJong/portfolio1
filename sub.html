@@ -150,9 +150,9 @@
        $('#slideul').stop().alimate({marginLeft:0},800)  
        });
        $('#next').click(function(){
-       $('#slideul').stop().animate({marginLeft:0},800, function(){
-       $('#slideul li:first').appendTo('#slideul');
+       $('#slideul li:first').appendTo('#slideul');  
        $('#slideul').css({marginLeft:0});
+       $('#slideul').stop().animate({marginLeft:-0},800, function(){
        });
        });
 
