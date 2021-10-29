@@ -128,14 +128,18 @@
 
      <div id="slide">
        <p>NIKE BEST SHOSE</p>
+       <div id="slidebutton">
        <span id="prev">&lt;</span>
        <span id="next">&gt;</span>
+       </div>
+       
        <ul id="slideul">
          <li><img src="img/16.JPG" alt="이미지"></li>
          <li><img src="img/17.JPG" alt="이미지"></li>
          <li><img src="img/18.JPG" alt="이미지"></li>
          <li><img src="img/19.JPG" alt="이미지"></li>
-       </ul>      
+       </ul>
+            
      </div>
       
 
@@ -145,6 +149,14 @@
        $('#slideul').css('margin-left',-0)
        $('#slideul').stop().alimate({marginLeft:0},800)  
        });
+       $('#next').click(function(){
+       $('#slideul').stop().animate({marginLeft:0},800, function(){
+       $('#slideul li:first').appendTo('#slideul');
+       $('#slideul').css({marginLeft:0});
+       });
+       });
+
+
      </script>
 
     <footer id="box">
